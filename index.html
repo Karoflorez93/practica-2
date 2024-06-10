@@ -103,15 +103,15 @@
      <aside>
         <nav>
             <ul>
-             <li>
-                 <a href="www.facebook.com">Facebook</a>
-             </li>
-             <li>
-                 <a href="www.instagram.com">Instagram</a>
-             </li>
-             <li>
-                 <a href="www.x.com">X</a>
-             </li>
+                <li>
+                    <a href="www.facebook.com">Facebook</a>
+                </li>
+                <li>
+                    <a href="www.instagram.com">Instagram</a>
+                </li>
+                <li>
+                    <a href="www.x.com">X</a>
+                </li>
             </ul>
          </nav>
      </aside>
@@ -171,17 +171,18 @@
 
         <!-- sirve para incrustar contenido externo a nuestra web -->
          <!-- un ejemplo de un video en youtube -->
-    <iframe 
-    width="300" 
-    height="215" 
-    src="https://www.youtube.com/embed/yXO6XwXweBo?si=cPjqmy-MbQd2AFqu" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen
-    >
-</iframe>    
+<iframe
+        width="300" 
+        height="215" 
+        src="https://www.youtube.com/embed/yXO6XwXweBo?si=cPjqmy-MbQd2AFqu" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+</iframe>
+      
 
 <!-- un ejemplo de un mapa de google maps -->
 <iframe 
@@ -290,23 +291,93 @@ Descargar</a>
         <br>
         <input type="checkbox" name="">
         <br>
-
-        <select name="Ciudad">
-            <option value="Bogota">Bogota</option>
-            <option value="Medellin">Medellin</option>
-            <option value="Cali">Cali</option>
-
-        </select>
+        <label>
+            ciudad:
+            <select name="Ciudad">
+                <option value="Bogota">Bogota</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Cali">Cali</option>
+    
+            </select>
+        </label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        
         <br>
+
+
+
         <button>Presioname</button>
         
 
     </form>
 
-    <br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br>
 
+
+    <h1>Tabla</h1>
+
+    <table border="1px">
+        <caption>usuario de mi pagina web</caption>
+        <thead> <!-- cabecera -->
+            <tr> <!-- fila -->
+                <th> <!-- celda de titulo -->
+                    Nombre
+                </th>
+                <th>
+                    Edad
+                </th>
+                <th>
+                    email
+                </th>
+            </tr>
+        </thead>
+        <tbody> <!-- contenido / datos de nuestra tabla -->
+            <tr> <!-- fila -->
+                <td> <!-- celda de datos -->
+                    Sebas
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    jsebas.arias@gmail.com
+                </td>
+            </tr>
+            <tr> <!-- fila -->
+                <td> <!-- celda de datos -->
+                    Juan
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    juan.arias@gmail.com
+                </td>
+            </tr>
+        </tr>
+        <tr> <!-- fila -->
+            <td> <!-- celda de datos -->
+                Camilo
+            </td>
+            <td>
+                31
+            </td>
+            <td>
+                camilo.arias@gmail.com
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    Total de usuarios: 3
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
 
         
 </body>
